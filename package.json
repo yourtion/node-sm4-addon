@@ -1,0 +1,23 @@
+{
+  "name": "sm4-addon",
+  "version": "1.0.0",
+  "description": "Node.js SM4 Addon",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourtion/node-sm4-addon.git"
+  },
+  "keywords": [
+    "sm4",
+    "addon"
+  ],
+  "author": "Yourtion <yourtion@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yourtion/node-sm4-addon/issues"
+  },
+  "homepage": "https://github.com/yourtion/node-sm4-addon#readme"
+}
