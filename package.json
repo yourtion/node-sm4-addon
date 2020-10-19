@@ -1,10 +1,16 @@
 {
-  "name": "sm4-addon",
+  "name": "@techs/sm4-addon",
   "version": "1.0.0",
   "description": "Node.js SM4 Addon",
   "main": "index.js",
+   "files": [
+    "libs",
+    "index.js"
+  ],
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "tag": "git tag v`node -p 'require(\"./package\").version'`",
+    "postpublish": "npm run tag && git push && git push --tags"
   },
   "repository": {
     "type": "git",
