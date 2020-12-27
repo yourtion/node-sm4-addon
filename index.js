@@ -1,5 +1,5 @@
 const os = require('os');
-const addon = os.platform() === "darwin" ? require("./libs/mac") : require("./libs/linux");
+const addon = require(`./libs/${os.platform()}`);
 
 function encrypt(key, data) {
   if(!key || !data) {

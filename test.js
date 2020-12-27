@@ -9,5 +9,7 @@ const a = sm4.encrypt(key, data);
 
 console.log(a);
 assert(a === ret);
+console.log("encrypt ok");
 const b = sm4.decrypt(key, a);
 assert(b === data);
+console.log("decrypt ok");

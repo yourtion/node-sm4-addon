@@ -1,6 +1,6 @@
 {
   "name": "@techs/sm4-addon",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Node.js SM4 Addon",
   "main": "index.js",
    "files": [
