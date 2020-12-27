@@ -1,8 +1,14 @@
 # node-sm4-addon
 
-Node.js SM4 Addon
+基于 N-API 构建的 Node.js SM4 C++ 扩展，支持 Linux、Mac、Windows，性能卓越。
+
+支持 Node.js 8.x - 15.x，测试情况看 Github Actions 结果：![Node.js CI](https://github.com/yourtion/node-sm4-addon/workflows/Node.js%20CI/badge.svg?branch=main)
 
 ## Usage
+
+```shell
+$ npm install -S @techs/sm4-addon
+```
 
 ```javascript
 const sm4 = require("@techs/sm4-addon");

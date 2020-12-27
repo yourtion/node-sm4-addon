@@ -16,6 +16,9 @@
     "type": "git",
     "url": "git+https://github.com/yourtion/node-sm4-addon.git"
   },
+  "engines" : { 
+    "node" : ">=8.0"
+  },
   "keywords": [
     "sm4",
     "addon"
